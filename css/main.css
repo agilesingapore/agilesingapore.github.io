@@ -11,18 +11,11 @@ body {
   margin-right: auto;
 }
 
-.conf-14 {
-  display:table;
-  height:50%;
-  width:100%;
-  background: #7fbbda;
-  color: #ffffff;
-}
-
 .conf-13 {
   display:table;
   height:50%;
   width:100%;
+  padding: 2em;
 }
 
 .center-all {
