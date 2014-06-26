@@ -10,6 +10,10 @@ body {
   margin: 10px;
 }
 
+.label {
+  font-size: 1em;
+}
+
 .mf-cover {
   background-color: #4d4d4d;
   margin-top:1px;
@@ -42,10 +46,6 @@ body {
   color: white;
   padding-top:4px;
   padding-bottom:4px;
-}
-
-.seats {
-  width: 50px;
 }
 
 p, li, div {
