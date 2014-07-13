@@ -14,6 +14,10 @@ body {
   font-size: 1em;
 }
 
+.panel-info {
+  min-height:210px
+}
+
 .mf-cover {
   background-color: #4d4d4d;
   margin-top:1px;
