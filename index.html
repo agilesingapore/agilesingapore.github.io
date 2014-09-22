@@ -24,7 +24,13 @@
   ga('create', 'UA-51085940-1', 'agilesingapore.org');
   ga('require', 'displayfeatures');
   ga('send', 'pageview');
-
+    
+    // temporary redirect agilesingapore.org to 2014.agilesingapore.org
+    // Github pages doesnt allow htaccess or rewrite mod, so we have to rely on the javascript
+    if (window.location.href.indexOf('http://agilesingapore.org') === 0) {
+        window.location.href = 'http://2014.agilesingapore.org';
+    }
+    // end of temporary redirect
   </script>
 </head>
 
