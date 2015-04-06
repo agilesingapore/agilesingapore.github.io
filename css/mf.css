@@ -1,0 +1,33 @@
+body {
+  font-family: "Ubuntu",Helvetica,Arial,sans-serif;
+}
+
+.mf-page {
+  margin: 10px;
+}
+
+.label {
+  font-size: 1em;
+}
+
+.mf-cover {
+  background-color: #4d4d4d;
+  margin-top:1px;
+  padding-top:30px;
+  padding-bottom:60px
+}
+
+.mf-cover h2 {
+  color: white;
+}
+
+.status {
+  background-color: #eb1c24;
+  color: white;
+  padding-top:4px;
+  padding-bottom:4px;
+}
+
+p, li, div {
+  font-size: 16px;
+}

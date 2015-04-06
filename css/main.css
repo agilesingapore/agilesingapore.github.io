@@ -1,74 +1,27 @@
-/* Global Styles */
-
-html,
 body {
-  height: 100%;
-  width: 100%;
+  font-family: "Ubuntu",Helvetica,Arial,sans-serif;
 }
 
-.mf-page {
-  margin: 10px;
+.item .thumbnail {
+  padding: 0;
+  max-width: 345px;
 }
 
-.label {
-  font-size: 1em;
+.item a {
+  text-decoration: none;
 }
 
-.panel-info {
-  min-height:210px
+.item img {
+  margin-left:-1px;
+  margin-top:-1px;
+  border-radius:4px 4px 0 0;
+  max-width: 345px;
 }
 
-.mf-cover {
-  background-color: #4d4d4d;
-  margin-top:1px;
-  padding-top:30px;
-  padding-bottom:60px
-}
-
-.mf-cover h2 {
-  color: white;
-}
-
-.logo-2014 {
-  width: 500px;
-  margin-bottom: 10px;
-}
-
-.img-center {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.center-all {
-  display:table-cell;
-  vertical-align:middle;
-  text-align:center;
-}
-
-.status {
-  background-color: #eb1c24;
-  color: white;
-  padding-top:4px;
-  padding-bottom:4px;
-}
-
-p, li, div {
-  font-size: 16px;
-}
-
-.learn {
-  color: #eb1c24;
-}
-
-.jumbotron {
-  height: 500px;
-  background: url("../img/bg_home.jpg") no-repeat center top;
-  margin-bottom: 0;
-  display: table;
-  width: 100%;
-}
-
-.jumbotron p {
-  font-size: 18px;
-  font-weight: 500;
+@media (max-width: 768px) {
+  .item .thumbnail {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
