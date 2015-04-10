@@ -35,3 +35,7 @@ dl {
 p, li, div {
   font-size: 16px;
 }
+
+.headshot {
+  border-width: 0px;
+}
