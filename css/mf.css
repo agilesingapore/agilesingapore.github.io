@@ -28,6 +28,10 @@ body {
   padding-bottom:4px;
 }
 
+dl {
+  margin-bottom: 0px;
+}
+
 p, li, div {
   font-size: 16px;
 }
