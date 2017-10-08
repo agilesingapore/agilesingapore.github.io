@@ -12,8 +12,8 @@ body {
 }
 
 .headline img {
-  margin-left:-1px;
-  margin-top:-1px;
+  margin-left:0px;
+  margin-top:0px;
   border-radius:4px 4px 0 0;
   max-width: 100%;
 }
